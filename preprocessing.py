@@ -211,5 +211,5 @@ if __name__ == '__main__':
 	if len(sys.argv) != 3:
 		print "Wrong number of arguments!"
 	else:
-		processor = Preprocessing384(sys.argv[1], sys.argv[2])
+		processor = Preprocessing(sys.argv[1], sys.argv[2])
 		processor.processTweets()
